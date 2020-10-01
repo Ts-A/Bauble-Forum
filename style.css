@@ -18,10 +18,43 @@ header nav{
   margin: 0 auto;
 }
 
-.close{
-  position: absolute;
-  right: 3px;
-  top: 5px;
+main{
+  margin-top: 30px;
+}
+
+.topic-header{
+  margin: 20px 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 40px;
+  color: #fcbf1e;
+  background-color:#171a1f;
+}
+
+.topic-item{
+  background-color: #171a1f !important;
+  height: 500px;
+}
+
+.topic-image{
+  padding: 2.5px 2.5px 0;
+  border-radius: 3%;
+  height: 270px;
+}
+
+.topic-title{
+  color: #fcbf1e;
+  font-weight: 600;
+}
+
+.left-line{
+  border-left: 7px solid violet;
+  padding: 0 10px;
+}
+
+.right-line{
+  border-right: 7px solid violet;
+  padding: 0 10px;
 }
 
 footer{
